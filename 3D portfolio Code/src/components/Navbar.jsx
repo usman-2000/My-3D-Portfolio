@@ -19,11 +19,12 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="Logo" className="w-9 h-9 object-contain" />
+          <img src={logo} alt="Logo" className="w-9 h-9 object-contain " />
           <p className="text-white text-[18px] text-bold cursor-pointer">
             Usman Rahim
           </p>
         </Link>
+        <p className="text-red-500">ABCDDD</p>
       </div>
     </nav>
   );
