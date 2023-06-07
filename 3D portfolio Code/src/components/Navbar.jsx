@@ -20,6 +20,9 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="Logo" className="w-9 h-9 object-contain" />
+          <p className="text-white text-[18px] text-bold cursor-pointer">
+            Usman Rahim
+          </p>
         </Link>
       </div>
     </nav>

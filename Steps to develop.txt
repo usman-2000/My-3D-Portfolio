@@ -1,0 +1,13 @@
+To create vite react app , run the following command:
+
+npm create vite@latest ./ -- --template react
+
+After That Install tailwind css
+
+for that go to the documentation and do as they said to do.
+
+For installing dependencies
+
+npm i --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom 
+
+For checking class names which we given in the code , you can go to the tailwing css website and search any property which you want to check
