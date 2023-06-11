@@ -57,7 +57,7 @@ const Contact = () => {
             />
           </label>
           <label htmlFor="" className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Message</span>
+            <span className="text-white font-medium mb-4">Message</span>
             <input
               type="text"
               name="name"
