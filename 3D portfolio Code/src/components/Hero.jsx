@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { github } from "../assets";
 
 const Hero = () => {
   return (
@@ -21,6 +22,14 @@ const Hero = () => {
             I develop 3D visuals user <br className="sm:block hidden" />
             experiences and web applications
           </p>
+          <div className="mt-12">
+            <button className="bg-[#915eff] py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary cursor-pointer hover:cursor-pointer">
+              <a href="www.github.com/" className="flex flex-row">
+                Github
+                <img src={github} alt="source code" className="w-5 h-5 ml-1" />
+              </a>
+            </button>
+          </div>
         </div>
       </div>
       <ComputersCanvas />
