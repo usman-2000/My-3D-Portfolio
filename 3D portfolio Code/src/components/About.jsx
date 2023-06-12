@@ -5,6 +5,7 @@ import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { Tilt } from "react-tilt";
 import { SectionWrapper } from "../hoc";
+import { github } from "../assets";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -42,17 +43,40 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px]  max-w-3xl leading-[30px]"
       >
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-        provident nesciunt rem explicabo ratione sunt quibusdam fuga, odio omnis
-        aliquam eos iste dolores repellendus modi iusto consequatur hic dolore
-        nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-        temporibus aut odio accusamus voluptatibus totam labore! Quam
-        dignissimos atque, veniam non blanditiis totam, vero expedita eum, at
-        voluptas odio culpa! Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Id iste pariatur esse quos vel amet aut iure beatae debitis
-        dolorum iusto blanditiis ducimus, ab, corrupti consequuntur labore,
-        nulla vero odio.
+        My name is Usman Rahim, and I am pursuing a degree in Software
+        Engineering from UBIT, University of Karachi. As I near the completion
+        of my graduation, I am excited to showcase my skills as a blockchain
+        developer. I have earned a certification in blockchain technology from
+        Jawan Pakistan, solidifying my expertise in this field. In addition, I
+        am adept at frontend development, with a keen passion for creating
+        captivating user interfaces for websites. With a strong focus on
+        building and developing decentralized applications, I consistently
+        strive for excellence. I take pride in my ability to work effectively as
+        a team member while also possessing valuable leadership qualities. This
+        introduction highlights my diverse skill set and showcases my dedication
+        to delivering high-quality work.
       </motion.p>
+      <div className="mt-12 flex flex-row">
+        <button className="bg-[#915eff] py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary cursor-pointer hover:cursor-pointer">
+          <a
+            href="https://github.com/usman-2000"
+            className="flex flex-row"
+            target="_black"
+          >
+            Github
+            <img src={github} alt="source code" className="w-5 h-5 ml-1" />
+          </a>
+        </button>
+        <button className="bg-white py-3 px-8 rounded-xl outline-none w-fit text-[#915eff] font-bold shadow-md shadow-primary cursor-pointer hover:cursor-pointer ml-5">
+          <a
+            href="https://www.linkedin.com/in/usman-rahim-2000urk/"
+            className="flex flex-row"
+            target="_black"
+          >
+            LinkedIn
+          </a>
+        </button>
+      </div>
 
       <div className="mt-10 flex flex-wrap gap-10">
         {services.map((service, index) => (

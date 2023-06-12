@@ -16,8 +16,22 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
 
-  const handleChange = () => {};
-  const handleSubmit = () => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
+  };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    // 1xPcaIQxqDOLqcUmD
+    // template_qaovi8k
+    // service_ff8qdkl
+    emailjs.send("service_ff8qdkl", "template_qaovi8k", {
+      from_name: form.name,
+      to_name: "Usman Rahim",
+    });
+  };
   return (
     <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden">
       <motion.div

@@ -19,17 +19,24 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Usman</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals user <br className="sm:block hidden" />
-            experiences and web applications
+            I specialize in crafting intelligent contracts and
+            <br className="sm:block hidden" />
+            building decentralized web applications
           </p>
-          <div className="mt-12">
-            <button className="bg-[#915eff] py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary cursor-pointer hover:cursor-pointer">
+          {/* <div
+            className="mt-12"
+            // onClick={() => window.open(source_code_link, "_blank")}
+          >
+            <button
+              className="bg-[#915eff] py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary cursor-pointer hover:cursor-pointer"
+              onClick={() => window.open("www.github.com/", "_blank")}
+            >
               <a href="www.github.com/" className="flex flex-row">
                 Github
                 <img src={github} alt="source code" className="w-5 h-5 ml-1" />
               </a>
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
       <ComputersCanvas />
