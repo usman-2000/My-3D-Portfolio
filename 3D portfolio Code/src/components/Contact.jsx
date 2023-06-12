@@ -27,10 +27,35 @@ const Contact = () => {
     // 1xPcaIQxqDOLqcUmD
     // template_qaovi8k
     // service_ff8qdkl
-    emailjs.send("service_ff8qdkl", "template_qaovi8k", {
-      from_name: form.name,
-      to_name: "Usman Rahim",
-    });
+    emailjs
+      .send(
+        "service_ff8qdkl",
+        "template_qaovi8k",
+        {
+          from_name: form.name,
+          to_name: "Usman Rahim",
+          from_email: form.email,
+          to_email: "usmanrahim2000@gmail.com",
+          message: form.message,
+        },
+        "1xPcaIQxqDOLqcUmD"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("Thankyou. I will get back to you as soon as possible.");
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.log(error);
+          alert("Something went wrong");
+        }
+      );
   };
   return (
     <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden">

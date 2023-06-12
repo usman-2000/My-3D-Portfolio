@@ -28,6 +28,10 @@ import {
   solidity,
   hardhat,
   eth,
+  project1,
+  project2,
+  project4,
+  project5,
 } from "../assets";
 
 export const navLinks = [
@@ -211,16 +215,15 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "3D Portfolio",
+    description: `3D portfolio with a unique design and graphics.`,
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "threejs",
         color: "green-text-gradient",
       },
       {
@@ -228,41 +231,40 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: project1,
+    source_code_link: "https://github.com/usman-2000/My-3D-Portfolio",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Portfolio",
+    description: `This was my first portfolio. It has unique design with eye-catching styles. Want to visit : usman-rahim-portfolio.netlify.app`,
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: project2,
+    source_code_link: "https://github.com/usman-2000/Portfolio",
   },
   {
-    name: "Trip Guide",
+    name: "Saphlink",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive agency website for a client. It has amazing 3D graphics and has a beautiful design. Want to visit this site? just copy this link : https://saphlink-test.netlify.app/",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "particlejs",
         color: "green-text-gradient",
       },
       {
@@ -270,8 +272,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: project4,
+    source_code_link: "https://github.com/usman-2000/saphlink-project",
+  },
+  {
+    name: "Saas Website",
+    description:
+      "A comprehensive agency website for a client.Want to visit this site? just copy this link : https://saas-project-website.netlify.app/",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "reacticons",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project5,
+    source_code_link: "https://github.com/usman-2000/saas-project",
   },
 ];
 
