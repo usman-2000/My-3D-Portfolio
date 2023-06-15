@@ -23,20 +23,6 @@ const Hero = () => {
             <br className="sm:block hidden" />
             building decentralized web applications
           </p>
-          {/* <div
-            className="mt-12"
-            // onClick={() => window.open(source_code_link, "_blank")}
-          >
-            <button
-              className="bg-[#915eff] py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary cursor-pointer hover:cursor-pointer"
-              onClick={() => window.open("www.github.com/", "_blank")}
-            >
-              <a href="www.github.com/" className="flex flex-row">
-                Github
-                <img src={github} alt="source code" className="w-5 h-5 ml-1" />
-              </a>
-            </button>
-          </div> */}
         </div>
       </div>
       <ComputersCanvas />
