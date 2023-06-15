@@ -1,13 +1,14 @@
 import { BrowserRouter } from "react-router-dom";
 import React, { Suspense, lazy } from "react";
 const Hero = lazy(() => import("./components/Hero"));
+const Tech = lazy(() => import("./components/Tech"));
+
 import {
   About,
   Contact,
   Experience,
   Feedbacks,
   Navbar,
-  Tech,
   Works,
   StarsCanvas,
 } from "./components";
@@ -28,7 +29,9 @@ function App() {
         </div>
         <About />
         <Experience />
+
         <Tech />
+
         <Works />
         {/* <Feedbacks /> */}
         <div className="relative z-0">
