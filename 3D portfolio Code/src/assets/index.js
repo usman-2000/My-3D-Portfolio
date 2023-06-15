@@ -29,7 +29,7 @@ import technyx from "./company/technyx.png";
 
 import project1 from "./project1.png";
 import project2 from "./project2.png";
-import project4 from "./project4.png";
+import Project4 from "./Project4.png";
 import project5 from "./project5.png";
 
 export {
@@ -61,6 +61,6 @@ export {
   solidity,
   project1,
   project2,
-  project4,
+  Project4,
   project5,
 };

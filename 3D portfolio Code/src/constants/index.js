@@ -22,7 +22,7 @@ import {
   eth,
   project1,
   project2,
-  project4,
+  Project4,
   project5,
 } from "../assets";
 
@@ -264,7 +264,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: project4,
+    image: Project4,
     source_code_link: "https://github.com/usman-2000/saphlink-project",
   },
   {
