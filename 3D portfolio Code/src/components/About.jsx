@@ -43,10 +43,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px]  max-w-3xl leading-[30px]"
       >
-        My name is Usman Rahim, and I am pursuing a degree in Software
-        Engineering from UBIT, University of Karachi. As I near the completion
-        of my graduation, I am excited to showcase my skills as a blockchain
-        developer. I have earned a certification in blockchain technology from
+        My name is Usman Rahim, I'm Software
+        Engineer from UBIT, University of Karachi. As I completed my graduation, I am excited to showcase my skills as a passionate software engineer. I have earned a certification in blockchain technology from
         Jawan Pakistan, solidifying my expertise in this field. In addition, I
         am adept at frontend development, with a keen passion for creating
         captivating user interfaces for websites. With a strong focus on

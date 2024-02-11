@@ -23,14 +23,19 @@ import threejs from "./tech/threejs.png";
 import solidity from "./tech/solidity.svg";
 import hardhat from "./tech/hardhat.svg";
 import eth from "./tech/eth.png";
+import t3 from "./tech/t3.png"
+import next from './tech/next.png'
 
 import teciz from "./company/teciz.png";
 import technyx from "./company/technyx.png";
+import qsols from './company/qsols.png'
 
 import project1 from "./project1.png";
 import project2 from "./project2.png";
 import Project4 from "./Project4.png";
 import project5 from "./project5.png";
+import Project6 from "./Project6.png"
+import Project7 from "./Project7.png"
 
 export {
   logo,
@@ -41,6 +46,7 @@ export {
   mobile,
   web,
   github,
+  t3,
   menu,
   close,
   css,
@@ -48,6 +54,7 @@ export {
   figma,
   git,
   html,
+  next,
   javascript,
   mongodb,
   nodejs,
@@ -58,9 +65,12 @@ export {
   threejs,
   teciz,
   technyx,
+  qsols,
   solidity,
   project1,
   project2,
   Project4,
   project5,
+  Project6,
+  Project7
 };

@@ -17,6 +17,7 @@ import {
   threejs,
   teciz,
   technyx,
+  qsols,
   solidity,
   hardhat,
   eth,
@@ -24,6 +25,11 @@ import {
   project2,
   Project4,
   project5,
+  Project6,
+  t3,
+  next,
+  Project7,
+  
 } from "../assets";
 
 export const navLinks = [
@@ -43,7 +49,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Frontend Web Developer",
+    title: "Full Stack Developer" ,
     icon: web,
   },
   {
@@ -55,16 +61,16 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Smart Contract Auditor",
     icon: creator,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
   {
     name: "CSS 3",
     icon: css,
@@ -97,10 +103,10 @@ const technologies = [
     name: "Solidity",
     icon: solidity,
   },
-  // {
-  //   name: "Hardhat",
-  //   icon: hardhat,
-  // },
+  {
+    name: "Next js",
+    icon: next,
+  },
   {
     name: "Ethereum",
     icon: eth,
@@ -118,9 +124,29 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+  {
+    name: "t3 stack",
+    icon: t3,
+  },
 ];
 
 const experiences = [
+  {
+    title: "Blockchain Developer",
+    company_name: "Q-Solutions",
+    icon: qsols,
+    iconBg: "#383E56",
+    date: "August 2023 - Present",
+    points: [
+      "As a Blockchain developer i develop decentralized websites.",
+      "Writing smart contract for different NFT Marketplaces.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I also develop website using T3 stack.",
+      "Here in our company we mainly not focus on single domain. I worked on frontend, backend, web optimization, unit testing, flow testing etc."
+    ],
+  },
   {
     title: "Blockchain Developer Internship",
     company_name: "Teciz Everything",
@@ -206,6 +232,46 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "NFT Marketplace",
+    description: `In this marketplace you can mint nfts, buy nfts and also resell your nfts. You can show list of your nfts. You can add metadata.`,
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Project7,
+    source_code_link: "https://github.com/usman-qsols/nftmarketdemo",
+  },
+  {
+    name: "Spotify Clone / Lyriks",
+    description: `This is the spotify clone website where you can listen latest songs.`,
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Project6,
+    source_code_link: "https://github.com/usman-2000/Spotify-Clone",
+  },
   {
     name: "3D Portfolio",
     description: `3D portfolio with a unique design and graphics.`,
