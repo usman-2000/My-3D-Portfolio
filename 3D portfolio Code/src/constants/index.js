@@ -26,10 +26,11 @@ import {
   Project4,
   project5,
   Project6,
+  Project8,
   t3,
   next,
   Project7,
-  
+
 } from "../assets";
 
 export const navLinks = [
@@ -49,7 +50,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full Stack Developer" ,
+    title: "Full Stack Developer",
     icon: web,
   },
   {
@@ -233,6 +234,31 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Q-Calender",
+    description: `This is the internal task-management and user-management system of our company Q-solutions. For Attendance of a user, there is a QR-code generator as well as scanner to mark his attendance. Employee can also mark attendance by detecting face. User can see his pending tasks, completed tasks, in progress tasks etc. User can also generate report at the end of the month. `,
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "prime-react",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "red-text-gradient",
+      }
+    ],
+    image: Project8,
+    source_code_link: "Private Repo",
+    project_link: "https://calendar.q-qsols.com/"
+  },
+  {
     name: "NFT Marketplace",
     description: `In this marketplace you can mint nfts, buy nfts and also resell your nfts. You can show list of your nfts. You can add metadata.`,
     tags: [
@@ -251,6 +277,7 @@ const projects = [
     ],
     image: Project7,
     source_code_link: "https://github.com/usman-qsols/nftmarketdemo",
+    project_link: ""
   },
   {
     name: "Spotify Clone / Lyriks",
@@ -271,6 +298,7 @@ const projects = [
     ],
     image: Project6,
     source_code_link: "https://github.com/usman-2000/Spotify-Clone",
+    project_link: ""
   },
   {
     name: "3D Portfolio",
@@ -291,6 +319,7 @@ const projects = [
     ],
     image: project1,
     source_code_link: "https://github.com/usman-2000/My-3D-Portfolio",
+    project_link: ""
   },
   {
     name: "Portfolio",
@@ -311,6 +340,7 @@ const projects = [
     ],
     image: project2,
     source_code_link: "https://github.com/usman-2000/Portfolio",
+    project_link: ""
   },
   {
     name: "Saphlink",
@@ -332,6 +362,7 @@ const projects = [
     ],
     image: Project4,
     source_code_link: "https://github.com/usman-2000/saphlink-project",
+    project_link: ""
   },
   {
     name: "Saas Website",
@@ -353,6 +384,7 @@ const projects = [
     ],
     image: project5,
     source_code_link: "https://github.com/usman-2000/saas-project",
+    project_link: ""
   },
 ];
 

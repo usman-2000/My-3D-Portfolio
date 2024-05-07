@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  project_link
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -50,6 +51,8 @@ const ProjectCard = ({
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          {project_link !== '' && <a target="_blank" href={project_link} className="mt-2 text-secondary text-[14px] text-blue-300 pointer">{project_link}</a>}
+
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
